@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.card-container {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.board-container {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.tablero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.casilla-1,
+.casilla-2,
+.casilla-3,
+.casilla-4,
+.casilla-5,
+.casilla-6,
+.casilla-7,
+.casilla-8,
+.casilla-9,
+.casilla-10,
+.casilla-11,
+.casilla-12,
+.casilla-13,
+.casilla-14,
+.casilla-15,
+.casilla-16 {
+  width: 100px; /* Ancho de las casillas */
+  height: 150px; /* Alto de las casillas, ajusta según necesites */
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 8px 0;
+}
+
+.casilla-4,
+.casilla-8,
+.casilla-12,
+.casilla-16 {
+  margin: 8px 0 0 0;
+}
+
+.casilla-1,
+.casilla-5,
+.casilla-9,
+.casilla-13 {
+  margin: 0 0 8px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #c528f8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c528f8;
+}
+
+.button:active {
+  background-color: #c528f8;
+}

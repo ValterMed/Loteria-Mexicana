@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card y Tableros</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card">
+        <h1>Lotería Mexicana</h1>
+        <p>Generador de cartillas</p>
+      </div>
+      <div>
+        <button class="button" onclick="generateNewBox()">Generar nueva cartilla</button>
+      </div>
+    </div>
+
+    <div class="board-container">
+      <div class="tablero">
+        <div class="fila">
+          <div id="box-1" class="casilla-1"></div>
+          <div id="box-2" class="casilla-2"></div>
+          <div id="box-3" class="casilla-3"></div>
+          <div id="box-4" class="casilla-4"></div>
+        </div>
+        <div class="fila">
+          <div id="box-5" class="casilla-5"></div>
+          <div id="box-6" class="casilla-6"></div>
+          <div id="box-7" class="casilla-7"></div>
+          <div id="box-8" class="casilla-8"></div>
+        </div>
+        <div class="fila">
+          <div id="box-9" class="casilla-9"></div>
+          <div id="box-10" class="casilla-9"></div>
+          <div id="box-11" class="casilla-10"></div>
+          <div id="box-12" class="casilla-12"></div>
+        </div>
+        <div class="fila">
+          <div id="box-13" class="casilla-13"></div>
+          <div id="box-14" class="casilla-14"></div>
+          <div id="box-15" class="casilla-15"></div>
+          <div id="box-16" class="casilla-16"></div>
+        </div>
+      </div>
+    </div>
+    <script src="cartillas.js"></script>
+  </body>
+</html>
